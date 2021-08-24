@@ -28,21 +28,21 @@ const Works: React.FC<IProps> =() =>{
             <div className='flex-col flex md:flex-row justify-around'>
                
                 <div className='flex flex-col'>
-                    <img className='h-14 w-14 self-center' src={vector1} />
+                    <img className='h-14 w-14 self-center' alt='icon' src={vector1} />
                     <p className='md:px-40 pt-10'>
                         Login or signup as a new user to 
                         access job and client globally
                     </p>
                 </div>
                 <div className='flex flex-col'>
-                    <img className='h-14 w-14 self-center' src={vector2} />
+                    <img className='h-14 w-14 self-center' src={vector2} alt='icon' />
                     <p className='md:px-40 pt-8'>
                         Explore a community of Skilled freelancer
                         and clients from all over the world
                     </p>
                 </div>
                 <div className='flex flex-col'>
-                    <img className='h-14 w-14 self-center' src={vector3} />
+                    <img className='h-14 w-14 self-center' src={vector3} alt='icon' />
                     <p className='md:px-40 pt-8'>
                         Hire a freelancer or connect with
                         a client and get your job done
@@ -53,7 +53,7 @@ const Works: React.FC<IProps> =() =>{
             <button className='border-2 p-3 rounded-3xl hover:bg-blue-900 font-extrabold mt-12 bg-blue-700 text-white'>Get Started</button>
             <div className='flex-col flex md:flex-row justify-between'>
                 <div>
-                    <img className='md:h-3/4' src={profile1} />
+                    <img className='md:h-3/4' alt='profile'  src={profile1} />
                 </div>
                 <div className='text-left md:mt-80 md:mr-32 '>
                     <h1 className='md:font-black mt-16 text-5xl'>Kickstart Your Journey! <br /> <span className='text-blue-700'>Create Your Portfolio</span></h1>
@@ -70,13 +70,13 @@ const Works: React.FC<IProps> =() =>{
                         <div className='rounded-full w-40 p-2 pl-4 left-24 top-8 relative bg-white shadow-xl z-30 flex gap-1'>
                         {
                                 starArray.map((star)=>(
-                                    <img src={star.image} />
+                                    <img alt='star' src={star.image} />
                                 ))
                             }
                         </div>
                 
                         <div className='w-6/12 sm:4/12 px-4 '>
-                            <img className='shadow  rounded-full w-60 h-28 align-middle border-none' src={profile10} />
+                            <img className='shadow  rounded-full w-60 h-28 align-middle border-none' alt='profile' src={profile10} />
                         </div>
                         
                     </div>
@@ -84,7 +84,7 @@ const Works: React.FC<IProps> =() =>{
                         <div className='rounded-full w-40 p-2 pl-4 left-24 top-8 relative bg-white shadow-xl z-30 flex gap-1'>
                         {
                                 starArray.map((star)=>(
-                                    <img src={star.image} />
+                                    <img alt='star' src={star.image} />
                                 ))
                             }
                         </div>
@@ -102,7 +102,7 @@ const Works: React.FC<IProps> =() =>{
                     <div className='flex gap-1'>
                     {
                         starArray.map((star)=>(
-                            <img src={star.image} />
+                            <img src={star.image} alt='star' />
                         ))
                     }
                     </div>
@@ -113,13 +113,13 @@ const Works: React.FC<IProps> =() =>{
                         <div className='rounded-full w-40 p-2 pl-4 left-24 top-8 relative bg-white shadow-xl z-30 flex gap-1'>
                         {
                                 starArray.map((star)=>(
-                                    <img src={star.image} />
+                                    <img alt='star' src={star.image} />
                                 ))
                             }
                         </div>
                 
                         <div className='w-6/12 sm:4/12 px-4 '>
-                            <img className='shadow  rounded-full w-60 h-28 align-middle border-none' src={profile11} />
+                            <img className='shadow  rounded-full w-60 h-28 align-middle border-none' alt='profile' src={profile11} />
                         </div>
                         
                     </div>
@@ -127,13 +127,13 @@ const Works: React.FC<IProps> =() =>{
                         <div className='rounded-full w-40 p-2 pl-4 left-24 top-8 relative bg-white shadow-xl z-30 flex gap-1'>
                         {
                                 starArray.map((star)=>(
-                                    <img src={star.image} />
+                                    <img alt='star' src={star.image} />
                                 ))
                             }
                         </div>
                 
                         <div className='w-6/12 sm:4/12 px-4 '>
-                            <img className='shadow rounded-full w-60 h-28 align-middle border-none' src={profile12} />
+                            <img className='shadow rounded-full w-60 h-28 align-middle border-none' alt='profile' src={profile12} />
                         </div>
                         
                     </div>

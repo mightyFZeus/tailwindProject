@@ -3,7 +3,7 @@ import profile2 from '../assetsImage/6UWqw25wfLI.png'
 import profile3 from '../assetsImage/profile4.png'
 import profile4 from '../assetsImage/PK_t0Lrh7MM.png'
 
-const Header =() =>{
+const Header =(): JSX.Element =>{
     return(
         <>
             <div className=' lg:mt-32 sm:mt-20 md:mt-20  flex flex-wrap justify-around'>
@@ -29,7 +29,7 @@ const Header =() =>{
                     
                     <div className='hidden  sm:flex sm:mt-20 '>
                         <div className='w-6/12 sm:4/12 p-0'>
-                        <img className='shadow rounded-full max-w-full relative left-16 h-auto align-middle border-none' src={profile4} />
+                        <img alt='profile' className='shadow rounded-full max-w-full relative left-16 h-auto align-middle border-none' src={profile4} />
                             <div className='shadow-2xl bg-white  p-3 w-64  z-30  flex gap-5 h-15 text-left relative bottom-64 right-20 rounded-full'>
                                 <i className='fa fa-envelope'></i>
                                 <div>
@@ -41,7 +41,7 @@ const Header =() =>{
                         </div>
                         
                         <div className='w-6/12 sm:4/12 p-0'>
-                            <img className='shadow rounded-full max-w-full h-auto align-middle border-none' src={profile2} />
+                            <img alt='profile' className='shadow rounded-full max-w-full h-auto align-middle border-none' src={profile2} />
                             <div className='shadow-xl  bg-white p-3 w-72  z-30 relative bottom-44 left-14  flex gap-5 h-15 text-left  rounded-full'>
                                 <i className='fa fa-envelope'></i>
                                 <div>
@@ -54,7 +54,7 @@ const Header =() =>{
                     
                     <div  className='flex '>
                         <div className='w-6/12 sm:4/12 p-0'>
-                            <img className='shadow rounded-full relative left-14 bottom-14 max-w-full h-auto align-middle border-none' src={profile3} />
+                            <img alt='profile' className='shadow rounded-full relative left-14 bottom-14 max-w-full h-auto align-middle border-none' src={profile3} />
                             <div className='shadow-xl bg-white  p-3 w-72  z-30 relative bottom-60 right-40  flex gap-5 h-15 text-left  rounded-full'>
                                 <i className='fa fa-envelope'></i>
                                 <div>
@@ -65,7 +65,7 @@ const Header =() =>{
                         </div>
                         
                         <div className='w-6/12 sm:4/12 p-0 relative bottom-24 '>
-                            <img className='shadow rounded-full max-w-full h-auto relative bottom-0 right-4 align-middle border-none' src={profile1} />
+                            <img alt='profile' className='shadow rounded-full max-w-full h-auto relative bottom-0 right-4 align-middle border-none' src={profile1} />
                             <div className='shadow-xl bg-white  p-3 w-72  z-30 relative bottom-80 left-20  flex gap-5 h-15 text-left  rounded-full'>
                                 <i className='fa fa-envelope'></i>
                                 <div>
