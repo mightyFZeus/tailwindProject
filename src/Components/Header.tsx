@@ -1,5 +1,7 @@
+
+
 import profile1 from '../assetsImage/xmtEdCeBsww.png'
-import profile2 from '../assetsImage/6UWqw25wfLI.png'
+// import profile2 from './assetsImage/profile.png'
 import profile3 from '../assetsImage/profile4.png'
 import profile4 from '../assetsImage/PK_t0Lrh7MM.png'
 
@@ -7,7 +9,7 @@ const Header =(): JSX.Element =>{
     return(
         <>
             <div className=' lg:mt-32 sm:mt-20 md:mt-20  flex flex-wrap justify-around'>
-                <div className='lg:mt-36 md:mb-16 bg-test '>
+                <div className='lg:mt-36 md:mb-16  '>
                     <h1 className='font-black text-2xl sm:text-6xl text-left'>
                         Get Your <span className=' text-blue-700'>Project <br />
                          </span>done by a <span className='text-blue-700'>Professional</span>
@@ -41,7 +43,7 @@ const Header =(): JSX.Element =>{
                         </div>
                         
                         <div className='w-6/12 sm:4/12 p-0'>
-                            <img alt='profile' className='shadow rounded-full max-w-full h-auto align-middle border-none' src={profile2} />
+                            {/* <img alt='profile' className='shadow rounded-full max-w-full h-auto align-middle border-none' src={profile2} /> */}
                             <div className='shadow-xl  bg-white p-3 w-72  z-30 relative bottom-44 left-14  flex gap-5 h-15 text-left  rounded-full'>
                                 <i className='fa fa-envelope'></i>
                                 <div>
